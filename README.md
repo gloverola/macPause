@@ -52,11 +52,11 @@ You can find them in:
 
 ## Install a Shared Build
 
-If someone sends you a packaged release zip:
+Download the latest `MacPause-<version>.zip` release, then:
 
 1. Unzip it.
-2. Drag `Mac Pause.app` into `/Applications`.
-3. Open the app once from Finder.
+2. Open `Mac Pause.app`.
+3. Drag `Mac Pause.app` into `/Applications` if you want to keep it installed there.
 4. If macOS warns that the developer cannot be verified, right-click the app and choose `Open`.
 5. Grant `Accessibility` and `Input Monitoring` when prompted.
 6. Quit and reopen once after enabling `Input Monitoring`.
