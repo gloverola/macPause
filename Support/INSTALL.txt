@@ -1,0 +1,21 @@
+Mac Pause
+=========
+
+Install
+1. Drag "Mac Pause.app" to Applications.
+2. Open the app from Applications.
+3. If macOS warns that the app cannot be verified, right-click it and choose Open.
+4. Grant both permissions in System Settings:
+   - Privacy & Security > Accessibility
+   - Privacy & Security > Input Monitoring
+5. Quit and reopen the app after enabling Input Monitoring.
+
+If macOS still blocks the app after download, run:
+
+xattr -dr com.apple.quarantine "/Applications/Mac Pause.app"
+
+What Mac Pause does
+- Temporarily blocks keyboard and pointer input for cleaning.
+- Unlocks only when you hold Right Shift + Escape.
+- Automatically exits when the failsafe timeout expires.
+
